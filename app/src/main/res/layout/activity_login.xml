@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.example.shantanu.adminapplication.LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="0dp"
+          android:layout_weight="2.5"
+          android:layout_gravity="center"
+          android:src="@drawable/admin"
+          />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/adminname"
+            android:layout_width="225dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Admin Emailid"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:background="@drawable/blackborder"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <EditText
+            android:id="@+id/adminpass"
+            android:layout_width="225dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Password"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:inputType="textPassword"
+           android:padding="10dp"
+            android:background="@drawable/blackborder"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Login"
+            android:onClick="openthenext"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

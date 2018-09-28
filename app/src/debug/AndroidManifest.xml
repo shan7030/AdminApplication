@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <activity android:name="com.example.shantanu.adminapplication.DetailsofComplaints" />
+        <activity android:name="com.example.shantanu.adminapplication.AppointEtrucker" />
+        <activity android:name="com.example.shantanu.adminapplication.Appointetrucker" />
+        <activity android:name="com.example.shantanu.adminapplication.ETruckerInfo" />
+        <activity android:name="com.example.shantanu.adminapplication.GiveCashback"></activity>
+    </application>
+
+</manifest>
